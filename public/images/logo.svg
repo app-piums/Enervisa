@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 220" role="img" aria-label="Enervisa" preserveAspectRatio="xMidYMid meet">
+  <title>Enervisa — Eficiencia que construye el futuro energético</title>
+  <g>
+    <!-- V mark (6 rounded petals) -->
+    <g fill="#1B3A5C">
+      <path d="M18 18 q8 -10 22 -6 q14 4 14 22 q0 18 -14 26 q-14 8 -24 -6 q-10 -14 2 -36 z"/>
+      <path d="M42 78 q8 -10 22 -6 q14 4 14 22 q0 18 -14 26 q-14 8 -24 -6 q-10 -14 2 -36 z"/>
+      <path d="M66 138 q8 -10 22 -6 q14 4 14 22 q0 18 -14 26 q-14 8 -24 -6 q-10 -14 2 -36 z"/>
+      <path d="M120 18 q-8 -10 -22 -6 q-14 4 -14 22 q0 18 14 26 q14 8 24 -6 q10 -14 -2 -36 z"/>
+      <path d="M144 78 q-8 -10 -22 -6 q-14 4 -14 22 q0 18 14 26 q14 8 24 -6 q10 -14 -2 -36 z"/>
+      <path d="M96 132 q14 -4 24 8 q10 12 2 28 q-8 16 -22 16 q-14 0 -20 -14 q-6 -14 4 -28 q6 -8 12 -10 z"/>
+    </g>
+
+    <!-- Wordmark -->
+    <text x="190" y="120" font-family="Arial Black, Helvetica, Arial, sans-serif"
+          font-weight="900" font-size="100" fill="#E8531D" letter-spacing="-2">ENERVISA</text>
+
+    <!-- Tagline -->
+    <text x="192" y="160" font-family="Arial, Helvetica, sans-serif"
+          font-weight="700" font-size="18" fill="#E8531D" letter-spacing="1.5">
+      EFICIENCIA QUE CONSTRUYE EL FUTURO ENERGÉTICO
+    </text>
+  </g>
+</svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-label="Enervisa">
+  <title>Enervisa — Eficiencia que construye el futuro energético</title>
+  <g>
+    <!-- V mark: 6 rounded petals arranged in two converging columns -->
+    <g fill="#1B3A5C">
+      <!-- Left column (slight inward lean, top -> bottom) -->
+      <path d="M18 18 q8 -10 22 -6 q14 4 14 22 q0 18 -14 26 q-14 8 -24 -6 q-10 -14 2 -36 z"/>
+      <path d="M42 78 q8 -10 22 -6 q14 4 14 22 q0 18 -14 26 q-14 8 -24 -6 q-10 -14 2 -36 z"/>
+      <path d="M66 138 q8 -10 22 -6 q14 4 14 22 q0 18 -14 26 q-14 8 -24 -6 q-10 -14 2 -36 z"/>
+      <!-- Right column (mirror lean, top -> bottom-center) -->
+      <path d="M120 18 q-8 -10 -22 -6 q-14 4 -14 22 q0 18 14 26 q14 8 24 -6 q10 -14 -2 -36 z"/>
+      <path d="M144 78 q-8 -10 -22 -6 q-14 4 -14 22 q0 18 14 26 q14 8 24 -6 q10 -14 -2 -36 z"/>
+      <!-- Bottom central petal (tip of the V) -->
+      <path d="M96 132 q14 -4 24 8 q10 12 2 28 q-8 16 -22 16 q-14 0 -20 -14 q-6 -14 4 -28 q6 -8 12 -10 z"/>
+    </g>
+
+    <!-- Wordmark ENERVISA -->
+    <text x="180" y="115" font-family="Arial Black, Helvetica, Arial, sans-serif"
+          font-weight="900" font-size="96" fill="#E8531D" letter-spacing="-2">ENERVISA</text>
+
+    <!-- Tagline -->
+    <text x="181" y="150" font-family="Arial, Helvetica, sans-serif"
+          font-weight="700" font-size="16" fill="#E8531D" letter-spacing="1.2">
+      EFICIENCIA QUE CONSTRUYE EL FUTURO ENERGÉTICO
+    </text>
+  </g>
+</svg>

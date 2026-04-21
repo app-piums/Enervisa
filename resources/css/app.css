@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Inter', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-brand-orange: #e8531d;
+    --color-brand-orange-light: #f37a4a;
+    --color-brand-orange-dark: #c43d0c;
+    --color-brand-blue: #1b3a5c;
+    --color-brand-blue-light: #2d5a85;
+    --color-brand-blue-dark: #0f2540;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 5rem;
+    }
+    body {
+        @apply font-sans text-slate-800 antialiased;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-orange px-6 py-3 font-semibold text-white shadow-lg shadow-orange-500/30 transition hover:bg-brand-orange-dark hover:shadow-orange-500/50 focus:outline-none focus:ring-2 focus:ring-orange-300;
+    }
+    .btn-secondary {
+        @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-brand-blue px-6 py-3 font-semibold text-brand-blue transition hover:bg-brand-blue hover:text-white;
+    }
+    .nav-link {
+        @apply relative px-3 py-2 text-sm font-semibold text-slate-700 transition hover:text-brand-orange;
+    }
+    .nav-link::after {
+        content: '';
+        @apply absolute bottom-0 left-1/2 h-0.5 w-0 -translate-x-1/2 bg-brand-orange transition-all duration-300;
+    }
+    .nav-link:hover::after {
+        @apply w-3/4;
+    }
+    .section-title {
+        @apply mb-2 text-center text-sm font-bold uppercase tracking-[0.3em] text-brand-orange;
+    }
+    .section-heading {
+        @apply mb-12 text-center text-4xl font-extrabold text-brand-blue md:text-5xl;
+    }
+    .card {
+        @apply rounded-2xl bg-white p-6 shadow-md ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-2xl;
+    }
+    .input {
+        @apply w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-800 transition focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-orange-200;
+    }
+    .label {
+        @apply mb-1 block text-sm font-semibold text-slate-700;
+    }
+}
+
+/* GLightbox custom theming */
+.glightbox-clean .gnext, .glightbox-clean .gprev, .glightbox-clean .gclose {
+    background-color: rgba(232, 83, 29, 0.85) !important;
+}
+
